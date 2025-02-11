@@ -92,7 +92,7 @@ section {
 .container9 div:nth-child(1),
 .container10 div:nth-child(1),
 .container11 div:nth-child(1) {
-    grid-column-end: span 2;
+    grid-column: span 2;
 }
 
 .container12 div:nth-child(1) {
@@ -104,8 +104,8 @@ section {
 .container9 div:nth-child(2),
 .container10 div:nth-child(2),
 .container11 div:nth-child(2) {
-    grid-column-end: span 2;
-    grid-row-end: span 2;
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
 .container12 div:nth-child(2) {
@@ -116,7 +116,7 @@ section {
 .container9 div:nth-child(9),
 .container10 div:nth-child(9),
 .container11 div:nth-child(9) {
-    grid-column-end: span 4;
+    grid-column: span 4;
 }
 
 .container12 div:nth-child(9) {
@@ -125,7 +125,7 @@ section {
 
 .container10 div:nth-child(3),
 .container11 div:nth-child(3) {
-    grid-row-end: span 3;
+    grid-row: span 3;
 }
 
 .container12 div:nth-child(3) {
@@ -133,7 +133,7 @@ section {
 }
 
 .container11 div:nth-child(7) {
-    grid-row-end: span 2;
+    grid-row: span 2;
 }
 
 .container12 div:nth-child(7) {
@@ -141,7 +141,7 @@ section {
 }
 
 .container11 div:nth-child(8) {
-    grid-column-end: span 2;
+    grid-column: span 2;
 }
 
 .container12 div:nth-child(8) {
